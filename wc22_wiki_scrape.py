@@ -6,8 +6,7 @@ COLUMN_NAMES = ["Date", "Time", "Match"]
 
 # Captures Wikipedia article content.
 content = requests.get(
-        "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
-        headers=headers,
+        "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
     )
 
 # Parses Wikipedia article HTML.
