@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import xlsxwriter
 
-COLUMN_NAMES = ["Date", "Time", "Match"]
+COLUMN_NAMES = ("Date", "Time", "Match")
 
 # Captures Wikipedia article content.
 content = requests.get(
